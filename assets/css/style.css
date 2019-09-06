@@ -1,0 +1,12 @@
+body{
+    background-image: url("../images/dex-background.jpg");
+    background-size: 100%;
+    background-repeat: center;
+    color: darkgoldenrod;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.h1{
+    font-size: 0rem;
+}
