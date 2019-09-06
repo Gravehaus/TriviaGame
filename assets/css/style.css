@@ -10,3 +10,13 @@ body{
 .h1{
     font-size: 0rem;
 }
+
+.myTitle{
+    background-color:rgba(27, 27, 27, 0.8);
+    text-align: center;
+    color: darkgoldenrod;
+    width:100%;
+    text-decoration: underline;
+    
+    
+}
