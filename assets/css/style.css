@@ -18,5 +18,9 @@ body{
     width:100%;
     text-decoration: underline;
     
-    
 }
+
+.card{
+    background-color: black;
+}
+
