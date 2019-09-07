@@ -132,6 +132,7 @@ function preLoadImage(status){
         <p class = "preload-image ">the correct answer is ${correctAnswer}</p>
         
         `);
+        
     } else{
         //
         $('#game').html(`
@@ -141,13 +142,8 @@ function preLoadImage(status){
     }
 }
 
+loadQuestion();
 
-
-/*$('#start')click(function()){
-    $('#start').remove();
-    $('#time').html(counter);
-    loadQuestion();
-}*/
 
 
 
