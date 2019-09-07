@@ -27,11 +27,12 @@ body{
 .choice{
     border: 1px solid gold;
     padding:10px;
-
 }
 
-.game{
-    background-color: aliceblue;
-
+.col-4{
+    background-image: url("../images/lichking.gif");
 }
+
+
+
 

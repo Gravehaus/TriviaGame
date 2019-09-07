@@ -1,7 +1,7 @@
 //Display question and choices in browser
 const quizQuestions = [
     {
-        question : "In the comics, who is Red's starting Pokemon?", //pokemon
+        question : "In the manga, who is Red's starting Pokemon?", //pokemon
         imgSrc : "../images/pikachu.gif",
         choices: ["Clefairy","Pikachu","Bulbasaur","Eevee"],
         correctAnswer: "Clefairy"

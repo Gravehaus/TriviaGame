@@ -7,6 +7,8 @@ let score = 0;
 let lost = 0;
 let timer;
 
+
+
 function nextQuestion() {
     const isQuestionOver = (quizQuestions.length - 1) === currentQuestion;
     if (isQuestionOver) {
@@ -43,6 +45,8 @@ function countDown() {
 }
 
 function loadQuestion() {
+
+    
 
     counter = 10;
     timer = setInterval(countDown, 1000);
