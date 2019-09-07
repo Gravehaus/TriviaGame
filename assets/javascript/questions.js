@@ -68,3 +68,11 @@ const quizQuestions = [
     },
     
 ];
+
+const funImages = [
+    'images/birdup.gif'
+];
+
+const sadImages = [
+    'images/game-over.gif'
+]
