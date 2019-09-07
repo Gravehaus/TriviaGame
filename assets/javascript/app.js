@@ -11,6 +11,7 @@ function nextQuestion() {
     const isQuestionOver = (quizQuestions.length -1) === currentQuestion;
     if (isQuestionOver) {
         console.log('game over');
+        displayResult();
 
     } else {
         currentQuestion++;
@@ -67,6 +68,35 @@ function nextQuestion() {
     }
 
     //go to next question whether right or wrong
+
+
+    $(document).on('click', '.choice', function(){
+        clearInterval(timer);
+        const selectedAnswer =  $(this).attr('data-answer');
+        const correctAnswer = quizQuestions[currentQuestion].correctAnswer;
+
+        if (correctAnswer ===selectedAnswer){
+                score ++;
+                nextQuestion();
+                console.log('wins');
+
+        } else{
+            lost ++;
+            nextQuestion();
+            console.log('loss');
+        }
+           
+    });
+
+    function displayResult(){
+        const result = `
+        <p>Your score ${score} questions(s)</p>
+        <p>Your score ${lost} questions(s)</p>
+        <p>Total ${quizQuestions.length} questions(s)</p>
+        <button>Reset Game</button>
+        `;
+        $('#game').html(result);
+    }
 
     loadQuestion();
 
