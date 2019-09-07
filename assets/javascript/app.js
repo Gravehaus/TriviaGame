@@ -141,7 +141,13 @@ function preLoadImage(status){
     }
 }
 
-loadQuestion();
+
+
+/*$('#start')click(function()){
+    $('#start').remove();
+    $('#time').html(counter);
+    loadQuestion();
+}*/
 
 
 

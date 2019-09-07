@@ -62,17 +62,11 @@ const quizQuestions = [
     },
     {
         question : "BONUS QUESTION): Is the Legend of Zelda series older, or younger than Joe?",
-        imgSrc : "../images/robbie-silenthill.gif", //bonus question
+        imgSrc : "../images/birdup.gif", //bonus question
         choices: ["Zelda is Older", "Joe is Older", "Both are equally sweet summer children"],
         correctAnswer: "Joe is Older"
     },
     
 ];
 
-const funImages = [
-    'images/birdup.gif'
-];
-
-const sadImages = [
-    'images/game-over.gif'
-]
+const gifs = ["../images/pikachu.gif","../images/mario.gif","../images/link-loz.gif","../images/lichking.gif","../images/lichking.gif","../images/mass-effectgif.gif","../images/adamjensen.gif","../images/cloud-seph.gif","../images/smash-bros.gif","../images/persona-5.gif","../images/robbie-silenthill.gif","../images/robbie-silenthill.gif","../images/birdup.gif"];
