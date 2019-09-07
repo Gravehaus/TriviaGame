@@ -80,7 +80,7 @@ $(document).on('click', '.choice', function () {
     if (correctAnswer === selectedAnswer) {
         score++;
         console.log('wins');
-        preLoadImage('win.');
+        preLoadImage('win');
         setTimeout(nextQuestion, 3 * 1000);
         
 
@@ -132,7 +132,7 @@ function preLoadImage(status){
         <p class = "preload-image ">the correct answer is ${correctAnswer}</p>
         
         `);
-        
+
     } else{
         //
         $('#game').html(`
@@ -143,6 +143,7 @@ function preLoadImage(status){
 }
 
 loadQuestion();
+
 
 
 

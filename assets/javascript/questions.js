@@ -34,7 +34,7 @@ const quizQuestions = [
         question : "What US city does Deus Ex:Humant Revolution start in?", //de:hr
         imgSrc : "../images/adamjensen.gif",
         choices: ["Hong Kong","Detroit","New York","Seattle"],
-        correctAnswer: "Seattle"
+        correctAnswer: "Detroit"
     },
     {
         question : "Which Final Fantasy character has appeared in every numbered FF game?",
