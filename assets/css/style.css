@@ -8,6 +8,8 @@ body{
     padding-bottom: 10px;
 }
 
+
+
 .h1{
     font-size: 0rem;
 }
@@ -29,7 +31,7 @@ body{
     border: 1px solid black;
     padding:10px;
     background-color: rgba(168, 127, 13, 0.5) ;
-    color: black;
+    color: rgb(192, 192, 192);
     
 }
 
@@ -47,6 +49,10 @@ body{
 
 .container{
     background-color:rgba(27, 27, 27, 0.8);
+}
+
+#reset{
+    color: darkgoldenrod;
 }
 
 /*.col-4{ 
