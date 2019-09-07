@@ -49,7 +49,7 @@ const quizQuestions = [
         correctAnswer: "1999"
     },
     {
-        question : "What name did the protaginists call their team?",
+        question : "What name did the protaginists of Persona 5 call their team?",
         imgSrc : "../images/persona-5.gif", //persona
         choices: ["The Crew","The Thieves", "The Phantom Thieves", "The Heart Seekers"],
         correctAnswer: "The Phantom Thieves"
@@ -61,7 +61,7 @@ const quizQuestions = [
         correctAnswer: "The Dog Ending"
     },
     {
-        question : "BONUS QUESTION): Is the Legend of Zelda series older, or younger than Joe?",
+        question : "(BONUS QUESTION): Is the Legend of Zelda series older, or younger than Joe?",
         imgSrc : "../images/birdup.gif", //bonus question
         choices: ["Zelda is Older", "Joe is Older", "Both are equally sweet summer children"],
         correctAnswer: "Joe is Older"

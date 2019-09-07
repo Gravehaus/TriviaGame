@@ -10,8 +10,10 @@ let timer;
 
 
 function nextQuestion() {
+    
     const isQuestionOver = (quizQuestions.length - 1) === currentQuestion;
     if (isQuestionOver) {
+        
         console.log('game over');
         displayResult();
 
@@ -45,9 +47,7 @@ function countDown() {
 }
 
 function loadQuestion() {
-
-    
-
+        
     counter = 10;
     timer = setInterval(countDown, 1000);
 

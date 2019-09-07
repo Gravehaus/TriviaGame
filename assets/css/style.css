@@ -5,6 +5,7 @@ body{
     color: darkgoldenrod;
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
+    padding-bottom: 10px;
 }
 
 .h1{
@@ -25,13 +26,32 @@ body{
 }
 
 .choice{
-    border: 1px solid gold;
+    border: 1px solid black;
     padding:10px;
+    background-color: rgba(168, 127, 13, 0.5) ;
+    color: black;
+    
 }
 
-.col-4{
-    background-image: url("../images/lichking.gif");
+#game{
+    color: rgb(192, 192, 192);
+    background-color: rgba(168, 168, 168, 0.2) ;
+    
 }
+
+#time{
+    font-size: 24px;;
+    
+    
+}
+
+.container{
+    background-color:rgba(27, 27, 27, 0.8);
+}
+
+/*.col-4{ 
+    background-image: url("../images/lichking.gif");
+}*/
 
 
 
