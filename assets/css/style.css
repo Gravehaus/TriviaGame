@@ -24,3 +24,14 @@ body{
     background-color: black;
 }
 
+.choice{
+    border: 1px solid gold;
+    padding:10px;
+
+}
+
+.game{
+    background-color: aliceblue;
+
+}
+

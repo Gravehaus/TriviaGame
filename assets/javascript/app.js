@@ -16,6 +16,8 @@ function nextQuestion() {
     } else {
         currentQuestion++;
         loadQuestion();
+
+        //I WANT TO LOAD CORRESPONDING IMAGES TO EACH QUESTION!!!
     }
 
 }
