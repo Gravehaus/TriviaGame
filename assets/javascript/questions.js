@@ -1,3 +1,4 @@
+//Display question and choices in browser
 const quizQuestions = [
     {
         question : "In the comics, who is Red's starting Pokemon?", //pokemon
