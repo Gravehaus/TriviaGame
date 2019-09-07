@@ -69,4 +69,17 @@ const quizQuestions = [
     
 ];
 
-const gifs = ["../images/pikachu.gif","../images/mario.gif","../images/link-loz.gif","../images/lichking.gif","../images/lichking.gif","../images/mass-effectgif.gif","../images/adamjensen.gif","../images/cloud-seph.gif","../images/smash-bros.gif","../images/persona-5.gif","../images/robbie-silenthill.gif","../images/robbie-silenthill.gif","../images/birdup.gif"];
+const gifs = [
+"../images/pikachu.gif",
+"../images/mario.gif",
+"../images/link-loz.gif",
+"../images/lichking.gif",
+"../images/lichking.gif",
+"../images/mass-effectgif.gif",
+"../images/adamjensen.gif",
+"../images/cloud-seph.gif",
+"../images/smash-bros.gif",
+"../images/persona-5.gif",
+"../images/robbie-silenthill.gif",
+"../images/robbie-silenthill.gif",
+"../images/birdup.gif"];

@@ -31,6 +31,10 @@ body{
     background-color: black;
 }
 
+.card-img-top{
+    height: 140px;
+}
+
 .choice{
     border: 1px solid black;
     padding:10px;
