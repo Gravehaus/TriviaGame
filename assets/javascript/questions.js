@@ -60,5 +60,11 @@ const quizQuestions = [
         choices: ["The Joke Ending", "The Cat Ending", "The Dog Ending", "The Funny Ending"],
         correctAnswer: "The Dog Ending"
     },
+    {
+        question : "BONUS QUESTION): Is the Legend of Zelda series older, or younger than Joe?",
+        imgSrc : "../images/robbie-silenthill.gif", //bonus question
+        choices: ["Zelda is Older", "Joe is Older", "Both are equally sweet summer children"],
+        correctAnswer: "Joe is Older"
+    },
     
 ];
