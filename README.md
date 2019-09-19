@@ -7,3 +7,5 @@ This was a good assignment. I'm glad I tried something different and started wit
 (Edit: I've been tweeking with only the CSS over the weekend and making everything shiny. I'd like to learn more about adding gifs into js/jq without relying on CSS and definitely not HTML-inline coding.)
 
 (A work in progress.)
+
+ https://gravehaus.github.io/TriviaGame/
